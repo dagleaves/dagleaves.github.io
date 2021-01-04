@@ -1,0 +1,49 @@
+body {
+    background: #011826;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color:white;
+    background: #012840;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:6px 8px #0388A6;
+}
+
+.assignment img {
+    width: 200px;
+    border: 2px solid #025373;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: #0388A6;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #0388A6;
+    text-decoration: none;
+}
+
+.assignment a:hover {
+    color: darkred;
+}
